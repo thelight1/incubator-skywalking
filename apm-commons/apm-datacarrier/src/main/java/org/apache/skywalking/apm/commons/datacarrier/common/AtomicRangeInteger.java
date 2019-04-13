@@ -25,6 +25,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by wusheng on 2016/10/25.
  */
+
+/**
+ * [start,max)，value在start，max之间循环。
+ * 比如[1,10)，value为1,2,3,.....,9,1,2,3,......,9
+ */
 public class AtomicRangeInteger extends Number implements Serializable {
     private static final long serialVersionUID = -4099792402691141643L;
     private AtomicInteger value;
