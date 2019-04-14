@@ -25,6 +25,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!--实现了个数据装载器，生产者、消费者模式-->
     <artifactId>apm-datacarrier</artifactId>
 
 </project>
